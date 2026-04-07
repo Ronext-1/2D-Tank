@@ -15,7 +15,7 @@ public partial class Tank : CharacterBody2D
 
 	public override void _Ready()
 	{
-		// Путь обновлен согласно иерархии на твоем скриншоте
+		// Путь обновлен согласно иерархии
 		_muzzle = GetNode<Marker2D>("Turret/gun/Marker2D");
 		_turret = GetNode<Node2D>("Turret");
 	}
