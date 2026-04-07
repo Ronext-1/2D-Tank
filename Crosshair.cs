@@ -27,7 +27,7 @@ public partial class Crosshair : Node2D
 		// Если мы "привязали" танк в инспекторе, берем из него данные
 		if (PlayerTank != null)
 		{
-			// У твоего танка в коде должен быть тип 'Tank' (или как ты его назвал)
+			// У танка в коде должен быть тип 'Tank' (или как его назвал)
 			// Приводим тип, чтобы вызвать метод GetFireTimer
 			var tankScript = PlayerTank as Tank; 
 
